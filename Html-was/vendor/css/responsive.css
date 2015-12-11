@@ -1,0 +1,1147 @@
+@media only screen and (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+    .row {
+        margin: 0;
+    }
+    #nav ul {
+        padding: 2px 0 0 0;
+    }
+    .ticket-links ul {
+        display: table;
+        width: 100%;
+    }
+    .ticket-links ul li {
+        display: table-cell;
+        float: none;
+        text-align: center;
+    }
+    .ticket-links ul li a {
+        font-size: 18px;
+    }
+    .banner {
+        padding: 40px 0 50px 0;
+    }
+    .banner h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .search-content {
+        margin-bottom: 85px;
+    }
+    .upcoming-events {
+        padding: 0;
+    }
+    .upcoming-nav {
+        padding: 5px 0 30px 0;
+    }
+    .upcoming-content {
+        padding: 0 2% 0 0;
+    }
+    .upcoming-content.rgt-block {
+        padding: 0 0 0 2%;
+    }
+    .upcoming-details {
+        padding: 0 0 30px 0;
+    }
+    .upcoming-nav ul li a {
+        font-size: 22px;
+    }
+    .tickets-block {
+        padding: 50px 0 0 0;
+    }
+    .other-users {
+        padding: 20px 0 50px 0;
+    }
+    .other-users ul li img {
+        width: auto;
+        height: 60px;
+        margin: 0 10px 0 0;
+    }
+    .other-users ul li .con {
+        margin: 5px 0 0 0;
+    }
+    .other-users ul {
+        padding: 5px 0 0 0;
+    }
+    .user-icon {
+        padding: 30px 0 25px 0;
+    }
+    .sponser {
+        padding: 30px 0 30px 0;
+    }
+    .footer-links {
+        padding: 25px 0 25px 0;
+    }
+    .social-block {
+        padding: 35px 0 10px 0;
+    }
+    .sponser ul {
+        padding: 0;
+    }
+    .social-select {
+        padding: 0 0 30px 0;
+    }
+    .partners {
+        padding: 30px 0 0 0;
+    }
+    .partners ul {
+        display: table;
+        width: 100%;
+        text-align: center;
+        padding: 0px 0 30px 0;
+    }
+    .partners ul li {
+        display: table-cell;
+        vertical-align: middle;
+        float: none;
+    }
+    .partners ul li a {
+        display: inline-block;
+    }
+    .sponser ul li {
+        margin: 0 36px 0 0;
+    }
+    .footer-links ul {
+        width: 24%;
+    }
+    .footer-links ul:nth-last-child(3) {
+        width: 20%;
+    }
+    .slick-slider {
+        width: 710px !important;
+        margin: 0 auto;
+    }
+    .feature-slider-con {
+        width: 124px !important;
+    }
+    .feature-slider-con.slick-center {
+        width: 150px !important;
+    }
+    .feature-slider-con h4 {
+        font-size: 18px;
+    }
+    /*Inner-1*/
+
+    .sub-nav {
+        padding: 0;
+    }
+    .mysteryland {
+        padding: 0 0 15px 0;
+    }
+    .ticket-booking {
+        padding: 15px 2%;
+    }
+    .ticket-types ul li a {
+        font-size: 13px;
+    }
+    .ticket-table {
+        width: 710px;
+        margin: 0 auto;
+    }
+    .table-head ul li h6 {
+        text-align: center;
+    }
+    .table-head ul li h6 em {
+        padding: 0;
+    }
+    .table-head ul li:nth-child(2) h6 {
+        padding-left: 0;
+    }
+    .table-head ul li:first-child h6 {
+        padding-left: 0;
+    }
+    .table-head ul li {
+        width: 140px;
+    }
+    .table-head ul li:nth-child(2) {
+        width: 140px;
+    }
+    .table-head ul li:nth-child(3) {
+        width: 140px;
+    }
+    .table-head ul li:nth-child(5) {
+        width: 130px;
+    }
+    .table-con {
+        padding: 10px 0 0 0;
+    }
+    .table-con ul li {
+        width: 260px;
+    }
+    .table-con ul li:nth-child(2) {
+        width: 290px;
+    }
+    .table-con ul li:nth-child(3) {
+        width: 140px;
+        float: right;
+    }
+    .table-con ul li .general {
+        float: none;
+        padding-left: 8px;
+    }
+    .table-con ul li .mystland {
+        float: none;
+    }
+    .table-con ul li .seller {
+        text-align: center;
+        position: relative
+    }
+    .table-con ul li .seller img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .table-con ul li .seller span {
+        float: none;
+    }
+    .table-con ul li .seller em {
+        position: absolute;
+        top: 8px;
+        right: 5px;
+        font-size: 20px;
+    }
+    .people-block {
+        padding: 44px 0 0 8px;
+        width: 692px;
+        margin: 0 auto 10px;
+    }
+    .people-block ul li {
+        text-align: center;
+    }
+    /*Inner-2*/
+
+    .inner-head {
+        padding: 35px 0 35px 0;
+    }
+    .contact-form {
+        padding: 35px 0 0 0;
+    }
+    .contact-form ul li .comment {
+        height: 140px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .header {
+        padding: 15px 0 24px 0;
+    }
+    .banner {
+        padding: 0;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    h2 {
+        padding: 0 0 15px 0;
+        font-size: 24px;
+    }
+    .banner h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .banner p {
+        font-size: 30px;
+        padding: 0 0 20px 0;
+    }
+    .search-block {
+        margin: 0 auto 20px;
+    }
+    .search-block input {
+        font-size: 26px;
+    }
+    .search-content .search-button {
+        margin: 0 auto;
+        float: none;
+        float: none;
+        display: block;
+        border-radius: 5px;
+    }
+    .banner-arrow {
+        bottom: 30px;
+    }
+    .upcoming-nav {
+        padding: 5px 0 20px 0;
+    }
+    .upcoming-nav ul li a {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .mob-none {
+        display: none;
+    }
+    .upcoming-content {
+        padding: 0;
+    }
+    .ticket-links ul {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .ticket-links ul li {
+        display: inline-block;
+        float: none;
+        width: 32%;
+        margin: 0 0 15px 0;
+    }
+    .tickets-block {
+        padding: 30px 0 0 0;
+    }
+    .tickets-block ul li {
+        padding: 0 !important;
+        margin: 0 0 20px 0;
+    }
+    .tickets-block ul li a img {
+        height: auto;
+    }
+    .other-users ul li img {
+        float: none;
+        display: block;
+        margin: 0 0 10px 0;
+    }
+    .other-users ul li .con {
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .user-icon ul li {
+        margin: 0 0 25px 0;
+    }
+    .sponser ul {
+        width: 90%;
+    }
+    .sponser ul li {
+        width: 33.33%;
+        text-align: center;
+        margin: 0;
+    }
+    .footer-links {
+        padding: 25px 2%;
+    }
+    .footer-links ul li h3 {
+        padding: 0 0 10px 0;
+    }
+    .footer-links ul {
+        width: 33.33%;
+        min-height: 170px;
+    }
+    .footer-links ul:nth-last-child(4) {
+        width: 150px;
+        float: right;
+    }
+    .footer-links ul:nth-last-child(3) {
+        width: 33.33%;
+        min-height: 100px;
+    }
+    .footer-links ul:nth-last-child(2) {
+        width: 33.33%;
+        min-height: 100px;
+    }
+    .social-select ul li {
+        margin: 0 0 15px 0;
+    }
+    .footer-links ul li a {
+        margin: 0 0 6px 0;
+    }
+    .social-select {
+        padding: 0 0 10px 0;
+    }
+    .partners ul li a img {
+        width: auto;
+        height: 43px;
+    }
+    .partners ul li a {
+        margin: 0 0 10px 0;
+    }
+    .dd .ddTitle .ddTitleText {
+        font-size: 16px;
+    }
+    .partners ul {
+        width: 330px;
+        margin: 0 auto;
+    }
+    .partners ul li:nth-last-child(1) {
+        display: none;
+    }
+    .partners ul li:nth-last-child(2) {
+        display: none;
+    }
+    .user-icon ul li h4 {
+        font-size: 24px;
+        line-height: 24px;
+        padding: 0 0 15px 0;
+    }
+    .user-icon ul li {
+        padding: 0 1%;
+    }
+    .slick-slider {
+        width: 510px !important;
+        margin: 0 auto;
+    }
+    .feature-slider-con {
+        width: 150px !important;
+    }
+    .feature-slider-con.slick-center {
+        width: 180px !important;
+        height: 100px;
+        margin: -10px 5px 0 5px !important;
+    }
+    .feature-slider-con h4 {
+        font-size: 18px;
+    }
+    .feature-slider-con.slick-center img {
+        height: 120px;
+    }
+    .feature-slider-con img {
+        height: 100px;
+    }
+    .slick-dots {
+        bottom: -30px;
+    }
+    /*Inner-1*/
+
+    .sub-nav {
+        text-align: center;
+    }
+    .sub-nav ul {
+        display: inline-block;
+    }
+    .mysteryland-address {
+        margin-left: 10px;
+        width: 210px;
+    }
+    .ticket-information {
+        margin: 0 auto;
+        display: block;
+        float: inherit;
+    }
+    .ticket-booking {
+        padding: 15px 0;
+        width: 550px;
+    }
+    .ticket-booking ul li {
+        padding: 0 !important;
+        margin: 0 0 15px 0;
+    }
+    .ticket-table {
+        width: 550px;
+    }
+    .ticket-types {
+        display: none;
+    }
+    .table-head ul li:nth-last-child(5) {
+        display: none;
+    }
+    .table-head ul li:nth-last-child(2) {
+        display: none;
+    }
+    .table-head ul li:nth-child(2) {
+        width: 230px;
+    }
+    .table-head ul li:nth-child(3) {
+        width: 150px;
+    }
+    .table-head ul li:nth-child(5) {
+        width: 158px;
+    }
+    .table-con ul li .mystland h4 {
+        display: none;
+    }
+    .table-con ul li .mystland h5 {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .table-con ul li .mystland {
+        padding: 13px 0 0 8px;
+    }
+    .table-con ul li {
+        width: 230px;
+        padding: 10px 0 10px 0;
+    }
+    .table-con ul li:nth-child(2) {
+        width: 150px;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+    .table-con ul li .tichets {
+        width: 50px;
+        float: none;
+    }
+    .table-con ul li .price {
+        width: 100%;
+    }
+    .table-con ul li .price span em {
+        display: none;
+    }
+    .people-block {
+        padding: 44px 0 0 8px;
+        width: 521px;
+        margin: 0 auto 10px;
+    }
+    .choose-block {
+        display: inline-block;
+    }
+    .choose-block ul li h6 {
+        font-size: 12px;
+    }
+    .mobile-venue {
+        background: url(../../static/images/venue-icon-over.png) no-repeat 10% center #2296ff !important;
+    }
+    .mobile-venue:hover {
+        background: url(../../static/images/venue-icon-over.png) no-repeat 10% center #aeaeae !important;
+    }
+    .sold-tickets .table-head {
+        display: none;
+    }
+    /*Inner-2*/
+
+    .contact-form {
+        padding: 30px 0 15px 0;
+        margin: 0 auto 20px;
+    }
+    .inner-head h1 {
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .inner-head {
+        padding: 25px 0;
+    }
+    .contact-form ul li h4 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .contact-form ul li {
+        margin: 0 0 20px 0;
+    }
+    .contact-form ul li > input {
+        width: 100%;
+    }
+    .contact-form ul li .comment {
+        width: 100%;
+    }
+    .contact-form ul li .dd {
+        width: 100% !important;
+    }
+    .contact-form ul li:nth-child(5) {
+        text-align: center;
+    }
+    .custom-checkbox {
+        float: none;
+    }
+    .contact-form ul li p {
+        padding: 0 0 16px 0;
+    }
+}
+@media only screen and (max-width: 599px) {
+    .banner h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .banner p {
+        font-size: 26px;
+        line-height: 32px;
+        padding: 0 0 20px 0;
+    }
+    .search-content {
+        margin-bottom: 50px;
+    }
+    #nav .tickerts,
+    #nav .flag {
+        display: none;
+    }
+    .upcoming-nav ul li {
+        width: 50%;
+        margin: 0 0 10px 0;
+    }
+    .upcoming-nav ul li a {
+        line-height: 40px;
+        font-size: 22px;
+    }
+    .other-users ul li p {
+        font-size: 11px;
+    }
+    .ticket-links {
+        display: none;
+    }
+    .wrapper {
+        position: relative;
+        right: 0;
+        transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+    }
+    #mobile_menu {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 20px;
+    }
+    #nav ul li {
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .main-block {
+        padding: 0 0 0 0;
+    }
+    .sub {
+        width: 70%;
+        position: fixed;
+        right: -70%;
+        top: 0;
+        height: 100%;
+        transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+    }
+    .open .sub #nav {
+        display: block;
+    }
+    .open .sub {
+        right: 0%;
+        transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+    }
+    .open .wrapper {
+        right: 70%;
+        position: relative;
+        transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+    }
+    .header {
+        padding: 25px 0;
+    }
+    .sub #nav {
+        display: block;
+    }
+    #nav {
+        padding: 0;
+        float: none;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(9, 6, 1);
+    }
+    .header-bg #nav {
+        display: none;
+        height: 100%;
+        width: 100%;
+    }
+    #nav ul {
+        padding: 0;
+        display: inline-block;
+        width: 100%;
+        overflow-y: scroll;
+        height: 100%;
+    }
+    #nav ul li a {
+        display: inline-block;
+        padding: 8px 2%;
+        margin: 0;
+        width: 100%;
+        border-bottom: solid 1px #fff;
+    }
+    #nav ul li a:hover,
+    #nav ul li a.active {
+        color: #fff;
+        background: #79BDE9;
+    }
+    .dd .ddTitle .ddTitleText {
+        font-size: 13px;
+    }
+    .user-icon ul li {
+        width: 50%;
+    }
+    .footer-links ul:nth-last-child(4) {
+        width: 130px;
+    }
+    .feature-events {
+        padding: 0 0 40px 0;
+    }
+    .slick-slider {
+        width: 410px !important;
+        margin: 0 auto;
+    }
+    .feature-slider-con {
+        width: 120px !important;
+    }
+    .feature-slider-con.slick-center {
+        width: 132px !important;
+        height: 100px;
+        margin: -10px 5px 0 5px !important;
+    }
+    .feature-slider-con h4 {
+        font-size: 15px;
+    }
+    .feature-slider-con.slick-center img {
+        height: 120px;
+    }
+    .feature-slider-con img {
+        height: 100px;
+    }
+    .slick-dots {
+        bottom: -20px;
+    }
+    .feature-events .slick-dots li button,
+    .slick-dots li button:before {
+        width: 10px;
+        height: 10px;
+    }
+    .slick-track {
+        padding: 10px 0;
+    }
+    /*Inner-1*/
+
+    .ticket-booking {
+        width: 400px;
+    }
+    .ticket-table {
+        width: 420px;
+    }
+    .table-con ul li {
+        width: 210px;
+    }
+    .sold-tickets .table-con ul li {
+        float: right !important;
+    }
+    .sold-tickets .table-head {
+        display: none;
+    }
+    .table-con ul li:nth-child(2) {
+        width: 100px;
+    }
+    .table-con ul li:nth-child(3) {
+        width: 100px;
+    }
+    .table-head ul li:nth-child(2) {
+        width: 200px;
+    }
+    .table-head ul li:nth-child(3) {
+        width: 100px;
+    }
+    .table-head ul li:nth-child(5) {
+        width: 100px;
+    }
+    .table-head ul li h6 {
+        font-size: 12px;
+    }
+    .even-page .show-more {
+        margin: 25px auto 25px;
+    }
+    .people-block {
+        width: 410px;
+        padding: 20px 0 0 0;
+    }
+    .people-block h2 {
+        font-size: 22px;
+    }
+    .table-head ul li h6 span {
+        display: none;
+    }
+    .mysteryland-address ul li:nth-last-child(1) {
+        display: none;
+    }
+    .table-con ul li small {
+        top: 50%;
+        right: 5px;
+    }
+    /*Inner-2*/
+
+    .inner-head h1 {
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+    .inner-head {
+        padding: 20px 0;
+    }
+    .contact-form ul li h4 {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 0 0 15px 0;
+    }
+    .contact-form ul li .comment {
+        height: 80px;
+        font-size: 18px;
+    }
+    .contact-form ul li > input {
+        font-size: 18px;
+    }
+    .contact-form ul li .signup {
+        font-size: 24px;
+        padding: 10px 8%;
+    }
+    .contact-form ul li p {
+        font-size: 16px;
+    }
+    .contact-form ul li .dd .ddTitle .ddTitleText {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 479px) {
+    h2 {
+        font-size: 18px;
+    }
+    .banner h1 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .banner p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    #nav ul li a {
+        font-size: 16px;
+    }
+    .search-block input {
+        font-size: medium;
+        padding: 0 15px 0 80px;
+    }
+    .search-content .search-button {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .ticket-links {
+        display: none;
+    }
+    .ticket-links ul li {
+        width: 48%;
+    }
+    .banner-arrow {
+        bottom: 20px;
+    }
+    .events-block .events {
+        width: 260px;
+    }
+    .tickets-block ul li a span {
+        font-size: 22px;
+    }
+    .upcoming-nav ul li a {
+        font-size: 18px;
+    }
+    .user-icon ul li img {
+        margin: 0 0 10px 0;
+        width: auto;
+        height: 45px;
+    }
+    .user-icon ul li h4 {
+        font-size: 20px;
+        line-height: 20px;
+        padding: 0 0 15px 0;
+    }
+    .user-icon ul li p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .sponser ul li a img {
+        width: auto;
+        height: 30px;
+    }
+    .footer-links ul:nth-child(odd) {
+        width: 50%;
+        float: left;
+    }
+    .footer-links ul:nth-child(even) {
+        width: 40%;
+        float: right;
+    }
+    .footer-links ul:nth-last-child(2) {
+        float: left !important;
+    }
+    .footer-links ul:nth-last-child(4) {
+        min-height: 110px !important;
+    }
+    .footer-links ul:nth-last-child(3) {
+        min-height: 190px;
+    }
+    .social-select ul li {
+        width: 100%;
+        padding: 0 !important;
+    }
+    .upcoming-content ul li p {
+        font-size: 11px;
+        width: 78%;
+    }
+    .partners ul {
+        width: 300px;
+    }
+    .partners ul li a img {
+        height: 40px;
+    }
+    .slick-slider {
+        width: 280px !important;
+        margin: 0 auto;
+    }
+    .feature-slider-con {
+        width: 77px !important;
+    }
+    .feature-slider-con.slick-center {
+        width: 90px !important;
+        height: 100px;
+        margin: -10px 5px 0 5px !important;
+    }
+    .feature-slider-con h4 {
+        font-size: 15px;
+        line-height: 18px;
+        top: 33%;
+    }
+    .feature-slider-con.slick-center img {
+        height: 100px;
+    }
+    .feature-slider-con img {
+        height: 80px;
+    }
+    .slick-dots {
+        bottom: -20px;
+    }
+    .feature-events .slick-dots li button,
+    .slick-dots li button:before {
+        width: 10px;
+        height: 10px;
+    }
+    .slick-track {
+        padding: 10px 0;
+    }
+    /*Inner-1*/
+
+    .ticket-booking {
+        width: 295px;
+    }
+    .ticket-table {
+        width: 295px;
+        padding: 25px 0 0;
+    }
+    .table-con ul li {
+        width: 150px;
+    }
+    .table-con ul li .general {
+        width: 100%;
+        padding: 0 0 0 5px;
+    }
+    .table-con ul li .general h4 {
+        line-height: 15px;
+    }
+    .table-con ul li .mystland {
+        width: 100%;
+        padding: 5px 0 0 5px;
+    }
+    .table-con ul li .mystland h5 {
+        line-height: 16px;
+        padding: 0 0 0 20px;
+    }
+    .table-con ul li .mystland h6 {
+        margin: 0;
+    }
+    .table-con ul li:nth-child(2) {
+        width: 100px;
+    }
+    .table-head ul li:nth-child(2) {
+        width: 120px;
+    }
+    .table-head ul li:nth-child(3) {
+        width: 100px;
+    }
+    .table-head ul li:nth-child(5) {
+        width: 70px;
+    }
+    .table-con ul li:nth-child(2) {
+        width: 60px;
+    }
+    .table-con ul li:nth-child(3) {
+        width: 85px;
+    }
+    .table-con ul li .seller span {
+        line-height: 18px;
+    }
+    .table-content {
+        padding: 0;
+    }
+    .ticket-information {
+        width: 290px;
+    }
+    .ticket-information ul li {
+        margin: 0 20px 0 0;
+    }
+    .people-block {
+        width: 295px;
+    }
+    .sub-nav {
+        display: none;
+    }
+    .mysteryland-address ul li img {
+        margin: 0 10px 0 0;
+        width: auto;
+        height: 22px;
+    }
+    .mysteryland-address ul li span {
+        font-size: 15px;
+        line-height: 10px;
+    }
+    .mysteryland-address ul li a {
+        font-size: 15px;
+        line-height: 10px;
+    }
+    .ticket-information ul li a {
+        width: 80px;
+        height: 80px;
+    }
+    .mysteryland-address {
+        padding: 0;
+        font-size: small;
+        line-height: 24px;
+    }
+    .mysteryland-address h4 {
+        padding: 0;
+        font-size: large;
+        line-height: 24px;
+    }
+    .ticket-booking {
+        padding: 15px 0 0;
+    }
+    .choose-block ul li h6 {
+        padding: 2px 0 2px 3px;
+        margin: 2px 0;
+        text-align: left;
+        font-size: 11px;
+        background-position: 92% 26px;
+    }
+    .choose-block ul li .reload {
+        background-size: 18px auto;
+        height: 44px;
+    }
+    .choose-block ul li ul li a {
+        line-height: 15px;
+        padding: 5px 8px 5px 8px;
+    }
+    .choose-block ul li ul li {
+        position: static !important;
+    }
+    .choose-block ul li ul {
+        top: 50px;
+    }
+    .choose-block ul > li:first-child {
+        width: 31%;
+    }
+    .choose-block ul {
+        position: relative;
+    }
+    .choose-block ul > li:nth-last-child(1) {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 12%;
+    }
+    .table-con ul li:first-child {
+        width: 140px;
+        margin: 0 0 0 10px;
+    }
+    .table-con ul li .price span {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .sold-tickets .table-con ul li .seller span {
+        background: none;
+    }
+    .table-con ul li small {
+        top: 40%;
+        right: 3px;
+    }
+    /*Inner-2*/
+
+    .inner-head h1 {
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 600;
+    }
+    .inner-head {
+        padding: 20px 0;
+    }
+    .banner p.form-ban {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .contact-form ul li .signup {
+        font-size: 20px;
+    }
+    .custom-checkbox label {
+        font-size: 18px;
+    }
+    .contact-form ul li h4 {
+        letter-spacing: 0;
+        font-size: 18px;
+        line-height: 24px;
+        padding: 0 0 5px 0;
+    }
+    .contact-form ul li .dd .ddTitle .ddTitleText {
+        font-size: 20px;
+    }
+    .sequence-wrapper {
+        display: none;
+    }
+    #sequence-3 {
+        display: none;
+    }
+    .one-column {
+        width: 100%;
+    }
+    .tabs .nav-tabs a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tabs--minimal .nav-tabs a,
+    .tabs--minimal-vertical .nav-tabs a {
+        font-size: 14px;
+    }
+    .tabs--vertical .nav-tabs,
+    .tabs--minimal-vertical .nav-tabs {
+        width: 110px;
+    }
+    .tabs--vertical .tab-content,
+    .tabs--minimal-vertical .tab-content {
+        margin-left: 109px;
+    }
+    .ticket-information-checkout {
+        width: 100%;
+    }
+    .ticket-information-checkout .checkout {
+        margin: 10px;
+        width: auto;
+    }
+    .ticket-information-checkout .checkout .checkout__field {
+        padding: 10px;
+    }
+    .table--vertical .ticket_price {
+        width: 80px;
+    }
+    .table--vertical .event_name {
+        width: 100px;
+    }
+    .table--vertical .vertical-heading .event_time {
+        width: 50px;
+    }
+    .table-checkout {
+        margin-bottom: 20px;
+        overflow: hidden;
+        border-top: 1px solid #ccc;
+        width: auto;
+    }
+}
+@media only screen and (max-height: 626px) {} @media only screen and (max-height: 490px) {
+    .ticket-links {
+        display: none;
+    }
+    .ticket-booking ul {
+        margin-left: 15%;
+    }
+}

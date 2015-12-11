@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>tix</title>
+<!-- SET: FAVICON -->
+<link rel="shortcut icon" type="image/x-icon" href="static/images/favicon.ico">
+<!-- END: FAVICON -->
+<!-- SET: STYLESHEET -->
+<link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.css">
+<link href="vendor/css/style.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" type="text/css" href="vendor/css/slick.css">
+<link rel="stylesheet" type="text/css" href="vendor/css/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="vendor/css/dd.css">
+<link rel="stylesheet" type="text/css" href="vendor/css/menu.css">
+<link rel="stylesheet" type="text/css" href="vendor/css/responsive.css">
+<!-- END: STYLESHEET -->
+</head>
+<body>
+<!-- wrapper starts -->
+<nav id="navbar-main" class="navbar header-bg navbar-static-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar bg1"></span>
+        <span class="icon-bar bg1"></span>
+        <span class="icon-bar bg1"></span>
+      </button>
+      <a class="navbar-brand" href="#">Ticketlister</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <form class="navbar-form navbar-left" role="search">
+
+        <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-addon white-search-box-icon"><i class="glyphicon glyphicon-search"></i></div>
+                <input type="text" class="form-control white-search-box-input" placeholder="Search an event or City">
+            </div>
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Howto</a></li>
+        <li><a href="#">Faq</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#" id="sellticket-btn">SELL YOUR TICKETS</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="container-fluid inner-bg-sellticket">
+    <div class="header-bg">
+        <div class="container">
+            <div class="row">
+             <div class="col-xs-12">
+                    <div class="header">
+                        <div id="logo">
+                            <a class="logo__text" href="#">Ticketlister</a>
+                        </div>
+                        <div id="mobile_menu" class="items"><button class="cmn-toggle-switch cmn-toggle-switch__htx"><span></span></button></div>
+                          <div id="nav">
+                            <ul>
+                                <li><a href="#">Howto</a></li>
+                                <li><a href="#">Faq</a></li>
+                                <li><a href="#">Login</a></li>
+                            </ul>
+                            <a input name="button" type="button" value="SELL YOUR TICKETS" class="tickerts" disabled>SELL YOUR TICKETS</a>
+                            <a href="#" class="flag"><img src="static/images/flag.jpg" width="28" height="20" alt="flag"></a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="main-content">
+	  <div class="page-sellticket-bg container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                 <p class="sell-h1 ">Search</p>
+                 </div>
+            </div>
+         </div>
+     </div>
+	 <div class="center-block col-xs-12" ></div>
+     <!--start search-->
+   <div class="search-content2 container-fluid">
+        <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <form class="form-inline" action="/search">
+                    <input class="form-control white-search-box-input" name="q" placeholder="Search an event or City" type="text">
+                    <button class="btn white-search-box-button" type="submit">Search</button>
+                </form>
+
+                <form class="form-inline" action="/search">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-addon white-search-box-big-icon"><i class="glyphicon glyphicon-search"></i></div>
+                            <input id="searchInput" class="form-control white-search-box-big-input" name="q" placeholder="Search an event or City" type="text">
+                        </div>
+                    </div>
+                    <button class="btn white-search-box-big-button" type="submit">Search</button>
+                </form>
+
+                <form class="form-inline" action="/search">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-addon black-search-box-big-icon"><i class="glyphicon glyphicon-search"></i></div>
+                            <input id="searchInput" class="form-control black-search-box-big-input" name="q" placeholder="Search an event or City" type="text">
+                        </div>
+                    </div>
+                    <button class="btn black-search-box-big-button" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+	</div>
+	 <div class="event-list container">
+	 	<div class="row">
+                <div class="event-list-search center-block  col-xs-12">
+     				   <h1 class="sell-h1">No results found</h1>
+                        <p>Can't find the event your're looking for ' AAA' .</p>
+                 <div class="space--xl"></div>
+				</div>
+  		</div>
+	</div>
+</div>
+<div class="footer">
+    <div class="sponser container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="block-title">As Seen on </h2>
+                    <ul>
+                        <li><a href="#"><img src="static/images/spons1.png" width="97" height="45" alt="sponser"></a></li>
+                        <li><a href="#"><img src="static/images/spons2.png" width="106" height="45" alt="sponser"></a></li>
+                        <li><a href="#"><img src="static/images/spons3.png" width="50" height="45" alt="sponser"></a></li>
+                        <li><a href="#"><img src="static/images/spons4.png" width="56" height="45" alt="sponser"></a></li>
+                        <li><a href="#"><img src="static/images/spons5.png" width="113" height="45" alt="sponser"></a></li>
+                        <li><a href="#"><img src="static/images/spons6.png" width="59" height="45" alt="sponser"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="social-icons container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="block-title-grey">Keep in touch</h2>
+                    <ul>
+                        <li><a href="#"><img src="static/images/facebok-icon.png" width="63" height="63" alt="facebok"></a></li>
+                        <li><a href="#"><img src="static/images/twitter-icon.png" width="63" height="63" alt="facebok"></a></li>
+                        <li><a href="#"><img src="static/images/google-icon.png" width="63" height="63" alt="facebok"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="partners container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h2 class="block-title-grey">Partners</h2>
+                    <ul>
+                        <li><a href="#"><img src="static/images/partners1.png" width="90" height="70" alt="partners"></a></li>
+                        <li><a href="#"><img src="static/images/partners2.png" width="175" height="48" alt="partners"></a><a href="#"><img src="static/images/partners3.png" width="175" height="48" alt="partners"></a></li>
+                        <li><a href="#"><img src="static/images/partners1.png" width="90" height="70" alt="partners"></a></li>
+                        <li><a href="#"><img src="static/images/partners4.png" width="168" height="48" alt="partners"></a><a href="#"><img src="static/images/partners5.png" width="168" height="48" alt="partners"></a></li>
+                        <li><a href="#"><img src="static/images/partners1.png" width="90" height="70" alt="partners"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bggrey container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="footer-links  col-xs-12">
+                    <ul>
+                        <li><h3>Head</h3></li>
+                        <li><a href="#">- Home</a></li>
+                        <li><a href="#">- Event</a></li>
+                        <li><a href="#">- Search</a></li>
+                        <li><a href="#">- About us</a></li>
+                        <li><a href="#">- Testemonials</a></li>
+                        <li><a href="#">- Jobs</a></li>
+                    </ul>
+                    <ul>
+                        <li><h3>Head</h3></li>
+                        <li><a href="#">- How to buy</a></li>
+                        <li><a href="#">- How to Sell</a></li>
+                        <li><a href="#">- Faq</a></li>
+                        <li><a href="#">- Costs</a></li>
+                    </ul>
+                    <ul>
+                        <li><h3>Head</h3></li>
+                        <li><a href="#">- User Agreements</a></li>
+                        <li><a href="#">- Privacy Policy</a></li>
+                        <li><a href="#">- Cookie Policy</a></li>
+                    </ul>
+                    <ul>
+                        <li><h3>Head</h3></li>
+                        <li><a href="#">- Facebook</a></li>
+                        <li><a href="#">- Twitter</a></li>
+                    </ul>
+                    <ul>
+                        <li><h3>Head</h3></li>
+                        <li><a href="#">- Lorem</a></li>
+                        <li><a href="#">- Lorem</a></li>
+                        <li><a href="#">- Lorem</a></li>
+                        <li><a href="#">- Lorem</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sub"></div>
+<!-- SET: SCRIPTS -->
+<script src="vendor/js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="vendor/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="vendor/js/slick.min.js"></script>
+<script type="text/javascript" src="vendor/js/jquery.dd.min.js"></script>
+<script type="text/javascript" src="vendor/js/custom.js"></script>
+<!-- END: SCRIPTS -->
+</body>
+</html>
