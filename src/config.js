@@ -5,7 +5,7 @@ const defaultConfig = {
   vat: 0.07,
   serviceFee: 0.07,
   stripeKey: 'pk_test_NrQ8vs4zfGcppdcFjw8jFNDV',
-  s3Bucket: 'hyperworks-tix-dev',
+  s3Bucket: 'ticketlister-dev',
   s3URL: 'https://s3-ap-southeast-1.amazonaws.com',
   maxSellPrice: 1.2,
   app: {
@@ -19,13 +19,13 @@ const defaultProd = Object.assign({}, defaultConfig);
 module.exports = {
   development: defaultConfig,
   staging: Object.assign(defaultStaging, {
-    apiURL: 'http://tix.hyperworks.co.th/api',
-    s3Bucket: 'hyperworks-tix-staging'
+    apiURL: 'http://188.166.219.0/api',
+    s3Bucket: 'ticketlister-staging'
   }),
   production: Object.assign(defaultProd, {
     isProduction: true,
     apiURL: 'http://ticketlister.com/api',
     stripeKey: 'pk_test_NrQ8vs4zfGcppdcFjw8jFNDV',
-    s3Bucket: 'hyperworks-tix'
+    s3Bucket: 'ticketlister-prod'
   })
 }[process.env.NODE_ENV || 'development'];
