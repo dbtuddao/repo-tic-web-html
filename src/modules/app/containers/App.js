@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react';
 import DocumentMeta from 'react-document-meta';
 import {createTransitionHook} from 'helpers/universalRouter';
+import config from 'config';
 // import * as SessionActions from 'redux/modules/session';
 
 const title = 'Tix';
@@ -44,11 +45,34 @@ export default class App extends React.Component {
     const {router, store} = this.context;
     this.transitionHook = createTransitionHook(store);
     router.addTransitionHook(this.transitionHook);
+    this.fbInit();
   }
 
   componentWillUnmount() {
     const {router} = this.context;
     router.removeTransitionHook(this.transitionHook);
+  }
+
+  fbInit() {
+    if (__CLIENT__) {
+      window.fbAsyncInit = () => {
+        FB.init({
+          appId: config.fbAppID,
+          xfbml: true,
+          cookie: true,
+          version: 'v2.4'
+        });
+      };
+
+      ((d, s, id) => {
+        let js = d.getElementsByTagName(s)[0];
+        const fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = '//connect.facebook.net/en_US/sdk.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    }
   }
 
   // static fetchData(store) {
